@@ -1,5 +1,10 @@
-baseURL = 'https://ms-f.pro/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-theme = ["github.com/onweru/newsroom"]
+[markup.highlight]
+noclasses = false
+style = "github"
+
+[[module.imports]]
+path = "github.com/willfaught/paige"

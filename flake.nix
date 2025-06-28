@@ -13,7 +13,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
       devShells.default = pkgs.mkShell {
-        buildInputs = with pkgs; [go tailwindcss];
+        buildInputs = with pkgs; [go dart-sass];
         packages = with pkgs; [hugo];
       };
     });
