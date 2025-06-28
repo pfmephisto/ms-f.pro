@@ -1,0 +1,5 @@
+baseURL = 'https://ms-f.pro/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+theme = ["github.com/onweru/newsroom"]
